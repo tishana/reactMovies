@@ -5,8 +5,8 @@ import MovieDisplay from './components/MovieDisplay'
 
 export default function App() {
   // api key
-  // const apiKey='da340fc4'
-  const apiKey = process.env.REACT_APP_APIKEY
+  const apiKey='da340fc4'
+  // const apiKey = process.env.REACT_APP_APIKEY
   // state for this application
   const [movie, setMovie] = useState(null)
   
